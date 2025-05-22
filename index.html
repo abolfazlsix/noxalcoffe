@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>meno digita</title>
+ <style>
+  body{
+    background-color: #e3e3e3;
+    ;
+   
+    font-family: p ;
+}
+
+@font-face {
+    font-family: p;
+    src: url(sit/پلاک.ttf);
+}
+#divheader{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}header{
+    background-color: #4b6f91;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+}
+#divheader1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+#divheader2{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #e4e5e4;
+}
+#divheader3{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+#divheader1 img{
+    width: 45px;
+    height: 45px;
+
+}
+#divheader3 img{
+    width: 45px;
+    height: 45px;
+}
+.scrolmeno0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position:sticky;
+    top: 0;
+    
+}
+.scrolmeno1{
+    width: 90%;
+    direction: rtl;
+    overflow-x: scroll;
+   text-align: center;
+    background: rgba(75, 111, 145, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+.menoenter{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 0px;
+    background-color: #4b6f91;
+    margin: 10px;
+    border-radius: 10px;
+    color: #e3e3e3;
+    transition: 0.5s;
+    line-height: border-box;
+    display: inline-block;
+}.menoenter img{
+    width: 50%;
+    height: 50%;
+    size: 100%;
+    background-size: 100%;
+}
+.menoenter:hover{
+    background-color: #e3e3e3;
+    color: #4b6f91;
+    border: 3px solid #4b6f91;
+}
+.div0{
+    display: flex;
+    width: 90%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.div{
+    display: flex;
+    flex: 1;
+    height: 200px;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    color: #4b6f91;
+    margin: 10px;
+    border: 3px solid #4b6f91;
+    transition: 0.4s;
+}
+.div1{
+    flex: 1;
+}
+
+.img{
+    width: 200px;
+   
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid #4b6f91;
+    margin-left: 20px;
+    height: 120px;
+    size: 100%;
+}
+.but{
+width: 200px;
+height: 50px;
+background-color: #4b6f91;
+color: #e3e3e3;
+border: none;
+border-radius: 10px;
+margin-left: 20px;
+margin-bottom: 10px;
+font-size: 15px;
+}
+.div2d1 h6{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    height: 50px;
+}
+.div2d1 p{
+    height: 40px;
+    font-size: 8px;
+    margin-right: 20px;
+    color: darkgray;
+    
+}
+.div2{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: flex-start;
+    flex:1;
+    min-height: 100%;
+}
+.div2d2{
+    
+    margin-right: 20PX;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.div2d2 p{
+    height:  200px;
+    font-size: 25px;
+    height: 50px;
+   bottom: 0px;
+}
+#sibhane,#pish,#salad,#pitza,#pasta,#kabab,#ghahve,#chay{
+    direction: rtl;
+    width: 90%;
+    height: 50px;
+    background-color: #4b6f91;
+    color: #e3e3e3;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#sibhane img,#pish img,#salad img,#pitza img,#pasta img,#kabab img,#ghahve img,#chay img{
+  width: 60px;
+    height: 60px;
+ size: 100%;
+}
+#sibhane h1,#pish h1,#salad h1,#pitza h1,#pasta h1,#kabab h1,#ghahve h1,#chay h1{
+    margin-right: 5px;
+ font-size: 15px;
+}
+
+.div:hover{
+    background-color: #4b6f91;
+    border: 1px solid #e4e5e4;
+    color: #e4e5e4;
+ .img{
+    border: 2px solid #e4e5e4;
+ }
+ .but{
+    background-color: #e4e5e4;
+    color: #4b6f91;
+
+ }
+}
+.divno{
+    
+    display: flex;
+    flex: 1;
+    height: 200px;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    color: #4b6f91;
+    margin: 10px;
+   
+
+}
+@media (max-width:1050px){
+    .div0{
+    display: flex;
+    width: 90%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img{
+    width: 170px;
+    height: 170px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 2px solid #4b6f91;
+    margin-left: 20px;
+    height: 100px;
+    size: 100%; 
+}
+.but{
+   width: 170px;
+height: 40px;
+background-color: #4b6f91;
+color: #e3e3e3;
+border: none;
+border-radius: 10px;
+margin-left: 20px;
+margin-bottom: 5px;
+font-size: 15px;
+}
+.div2d1 h6{
+    width: 170px;
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    height: 15px;
+}
+.div2d2 p{
+    font-size: 15px;
+   bottom: 0px;
+    
+}
+.div2d1 p{
+    height: 60px;
+    font-size: 10px;
+    margin-right: 20px;
+    color: darkgray;
+    margin-bottom: 0px;
+   text-align: right;
+   margin-top: 15px;
+}
+.div{
+        height: 170px;
+    }
+}
+@media (max-width:850px){
+  .div:hover{
+    background-color: #e4e5e4;
+    border: 3px solid #4b6f91;
+    color: #4b6f91;
+ .img{
+    border: 2px solid #4b6f91;
+ }
+ .but{
+    background-color: #4b6f91;
+    color: #e4e4e4;
+
+ }}
+  
+    .div0{
+        display: block;
+        
+    }
+    .div{
+        height: 160px;
+    }
+    header{
+    height: 50px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 2px solid #4b6f91;
+    margin-left: 20px;
+    height: 100px;
+    size: 100%; 
+}
+.but{
+   width: 150px;
+height: 40px;
+background-color: #4b6f91;
+color: #e3e3e3;
+border: none;
+border-radius: 10px;
+margin-left: 20px;
+margin-bottom: 5px;
+font-size: 15px;
+}
+.div2d1 h6{
+    width: 150px;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    height: 15px;
+}
+.div2d2 p{
+    font-size: 20px;
+   bottom: 0px;
+    
+}
+.div2d1 p{
+    height: 60px;
+    font-size: 10px;
+    margin-right: 20px;
+    color: darkgray;
+    margin-bottom: 0px;
+   text-align: right;
+   margin-top: 15px;
+}
+}
+
+@media(max-width:460px){
+    .img{
+    width: 120px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 2px solid #4b6f91;
+    margin-left: 10px;
+    height: 100px;
+    size: 100%;
+}
+.div2d2 p{
+   
+    font-size: 20px;
+   bottom: 0px;
+}
+.div2d1 p{
+    height: 30px;
+    font-size: 12px;
+    margin-right: 10px;
+    color: darkgray;
+    margin-bottom: 20px;
+   text-align: right;
+}
+.div{
+    display: flex;
+    flex: 1;
+    height: 150px;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    color: #4b6f91;
+    margin: 10px;
+    border: 3px solid #4b6f91;
+    transition: 0.4s;
+}
+.but{
+width: 120px;
+height: 30px;
+background-color: #4b6f91;
+color: #e3e3e3;
+border: none;
+border-radius: 10px;
+margin-left: 10px;
+margin-bottom: 5px;
+font-size: 12px;
+}
+.div2d1 h6{
+    margin-top: 5px;
+    font-size: 12px;
+   width: 100%;
+   max-height: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.div2d2 p{
+   
+    font-size: 12px;
+   bottom: 0px;
+}
+.div2d1 p{
+    height: 30px;
+    font-size: 8px;
+    margin-right: 10px;
+    color: darkgray;
+    margin-bottom: 40px;
+   text-align: right;
+    margin-top: 0px;
+}
+.div{
+    display: flex;
+    flex: 1;
+    height: 150px;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    color: #4b6f91;
+    margin: 10px;
+    border: 3px solid #4b6f91;
+    transition: 0.4s;
+}
+#sibhane,#pish,#salad,#pitza,#pasta,#kabab,#ghahve,#chay{
+    direction: rtl;
+    width: 90%;
+    height: 40px;
+    background-color: #4b6f91;
+    color: #e3e3e3;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#sibhane img,#pish img,#salad img,#pitza img,#pasta img,#kabab img,#ghahve img,#chay img{
+ width: 40px;
+ height: 40px;
+ size: 100%;
+}
+#sibhane h1,#pish h1,#salad h1,#pitza h1,#pasta h1,#kabab h1,#ghahve h1,#chay h1{
+    margin-right: 5px;
+  font-size: 12px;
+}
+#divheader1 img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#divheader3 img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#divheader2{
+    font-size: 13px;
+}
+.menoenter{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding: 0px;
+    background-color: #4b6f91;
+    margin: 5px;
+    border-radius: 10px;
+    color: #e3e3e3;
+    transition: 0.5s;
+    line-height: border-box;
+    display: inline-block;}
+    .menoenter img{
+    width: 40px;
+    height: 40px;
+    size: 100%;
+    background-size: 100%;
+    margin: 0px;
+}
+.menoenter p{
+    font-size: 12px;
+    margin: 0px;
+}
+}
+ </style>
+</head>
+<body>
+  <div id="divheader">
+    <header> 
+      <div id="divheader1"><img src="https://s6.uupload.ir/files/caltosi_tz40.png"></div>
+      <div id="divheader2">نوژال کافه</div>
+      <div id="divheader3"><img src="https://s6.uupload.ir/files/pasta_tirj.png" ></div>
+    </header>
+  </div>
+  <div class="scrolmeno0">
+    <div class="scrolmeno1">
+      <div class="menoenter"><img class="imga" src="https://s6.uupload.ir/files/sob_mqm4.png"><p>صبحانه</p></div>
+      <div class="menoenter"><img class="imga" src="https://s6.uupload.ir/files/pish_l3bg.png"><p>پیش غذا</p></div>
+      <div class="menoenter"><img class="imga" src="https://s6.uupload.ir/files/salad_asy.png"><p>سالاد</p></div>
+      <div class="menoenter"><img class="imga" src="https://s6.uupload.ir/files/pitza_zosz.png"><p>پیتزا</p></div>
+      <div class="menoenter"><img class="imga" src="https://s6.uupload.ir/files/pasta_tirj.png"><p>پاستا</p></div>
+      <div class="menoenter"><img class="imga" src="https://s6.uupload.ir/files/kabab_27ze.png"><p>کباب</p></div>
+      <div class="menoenter"><img class="imga" src="https://s6.uupload.ir/files/ghahve_6n1t.png"><p>قهوه</p></div>
+      <div class="menoenter"><img class="imga" src="https://s6.uupload.ir/files/chay_kac4.png"><p>چای</p></div>
+    </div>
+  </div>
+ <div id="sibhane">
+   <img src="https://s6.uupload.ir/files/sob_mqm4.png"><h1>صبحانه</h1>
+ </div>
+
+  <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727802882.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>نیمرو</h6>
+        <p>تخم مرغ</p>
+      </div>
+      <div class="div2d2"><p>90,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727802898.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>املت</h6><p>گوجه,تخم مرغ</p></div>
+      <div class="div2d2"><p>110,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+
+
+
+
+
+
+   <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727802938.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>سوسیس تخم مرغ</h6>
+        <p></p>
+      </div>
+      <div class="div2d2"><p>120,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727802773.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>نیمرو بیکن</h6><p>بیکن,تخم مرغ,نان تست</p></div>
+      <div class="div2d2"><p>195,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  
+
+  <div id="pish">
+   <img src="https://s6.uupload.ir/files/pish_l3bg.png"><h1>پیش غذا</h1>
+ </div>
+
+<div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727802962.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>نان سیر</h6><p>نان,سیر و</p></div>
+      <div class="div2d2"><p>144,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803208.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>سیب ساده</h6><p>سیب زمینی</p></div>
+      <div class="div2d2"><p>89,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803223.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>سیب مخصوص</h6><p>سیب زمینی,پنیر,قارچ</p></div>
+      <div class="div2d2"><p>150,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803236.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>بیکن فرایز</h6><p>سیب زمینی,چدار,بیکن,قارچ,دلمه,گوجه گیلاسی</p></div>
+      <div class="div2d2"><p>280,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  
+
+  <div id="salad">
+   <img src="https://s6.uupload.ir/files/salad_asy.png"><h1>سالاد</h1>
+ </div>
+ <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803247.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>سزار سوخاری</h6><p><br></p></div>
+      <div class="div2d2"><p>244,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803258.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>سزار گریل</h6><p><br></p></div>
+      <div class="div2d2"><p>235,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803271.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>سالاد سیز</h6><p>کاهو پیچ,خیار,پنیر فتا,سبزیجات معطر,سینه ی مرغ,کلم بروکلی,زیتون,باپالیس,سس سبز</p></div>
+      <div class="div2d2"><p>210,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="divno">
+     <!-- <div class="div1">
+      <div class="div1d1"> <img class="img" src="s.jpg"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>املت</h6><p>گوجه,تخم مرغ</p></div>
+      <div class="div2d2"><p>160,000</p>
+      </div>
+     </div> -->
+  </div>
+  </div>
+   <div id="pitza">
+   <img src="https://s6.uupload.ir/files/pitza_zosz.png"><h1>پیتزا</h1>
+ </div>
+ <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803287.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>پپرونی هالوپینو</h6><p>پپرونی,قارچ,فلفل دلمه,فلفل هالوپینو</p></div>
+      <div class="div2d2"><p>310,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803345.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>رست بیف</h6><p>راسته گوساله,قارچ,پیاز قرمز</p></div>
+      <div class="div2d2"><p>320,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803366.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>قارچ و مرغ</h6><p>سینه مرغ چرخ شده,قارچ,فلفل دلمه ,گوجه گیلاسی,پنیر میکس</p></div>
+      <div class="div2d2"><p>160,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803458.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>قارچ و گوشت</h6><p><br>
+      </p></div>
+      <div class="div2d2"><p>160,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+
+  <div id="pasta">
+   <img src="https://s6.uupload.ir/files/pasta_tirj.png"><h1>پاستا</h1>
+ </div>
+ <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803535.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>چیکن پستو</h6><p>سس پستو,پنه,فیله مرغ,گردو,خامه,چیپس گوجه,پنیر پارمسان</p></div>
+      <div class="div2d2"><p>229,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803551.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>چیکن آلفردو</h6><p>سس آلفردو,پنه,فیله مرغ,پنیر پارمسان</p></div>
+      <div class="div2d2"><p>209,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  <!-- <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="222763-823290.jpg"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>املت</h6><p>گوجه,تخم مرغ</p></div>
+      <div class="div2d2"><p>160,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="Untitled.jpg"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>املت</h6><p>گوجه,تخم مرغ</p></div>
+      <div class="div2d2"><p>160,000</p>
+      </div>
+     </div>
+  </div>
+  </div> -->
+   <div id="kabab">
+   <img src="https://s6.uupload.ir/files/kabab_27ze.png"><h1>کباب</h1>
+ </div>
+ <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803609.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>چلوکباب سلطانی</h6><p><br>
+      </p></div>
+      <div class="div2d2"><p>280,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803627.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>چلوکباب نگینی</h6><p><br></p></div>
+      <div class="div2d2"><p>260,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803641.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>چلوکباب کوبیده</h6><p><br>
+      </p></div>
+      <div class="div2d2"><p>240,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803665.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>چلو جوجه کوبیده</h6><p><br>
+      </p></div>
+      <div class="div2d2"><p>220,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+
+
+  <div id="ghahve">
+   <img src="https://s6.uupload.ir/files/ghahve_6n1t.png"><h1>قهوه</h1>
+ </div>
+ <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803699.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>اسپرسو</h6><p><br>
+      </p></div>
+      <div class="div2d2"><p>45,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803716.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>آمریکانو</h6><p><br></p></div>
+      <div class="div2d2"><p>60,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803729.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>لاته
+      </h6><p><br></p></div>
+      <div class="div2d2"><p>95,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803743.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>کاپوچینو</h6><p><br></p></div>
+      <div class="div2d2"><p>85,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+<div id="chay">
+   <img src="https://s6.uupload.ir/files/chay_kac4.png"><h1>چای</h1>
+ </div>
+ <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803754.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>چای</h6><p>هل,دارچین,گل سرخ </p></div>
+      <div class="div2d2"><p>40,000</p>
+      </div>
+     </div>
+  </div>
+  
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803774.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>چای سبز</h6><p><br></p></div>
+      <div class="div2d2"><p>50,000</p>
+      </div>
+     </div>
+  </div>
+  </div>
+  <div class="div0">
+
+   <div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803813.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>یوگا</h6><p>گل گاوزبان,به لیمو,سمبل الطیب</p></div>
+      <div class="div2d2"><p>75,000</p>
+      </div>
+     </div>
+  </div>
+  
+<div class="div">
+     <div class="div1">
+      <div class="div1d1"> <img class="img" src="https://api.barg.menu/storage/images/products/103-1727803903.webp"></div>
+      <div class="div1d2"><button class="but">افزودن</button></div>
+     </div>
+
+
+     <div class="div2">
+      <div class="div2d1"><h6>پروبادی</h6><p><br></p></div>
+      <div class="div2d2"><p>75,000</p>
+      </div>
+     </div>
+  </div>
+   
+  </div>
+  </div>
+ <script>
+let a0=document.getElementsByClassName("menoenter")[0];
+let b0=document.getElementsByClassName("imga")[0];
+let a1=document.getElementsByClassName("menoenter")[1];
+let b1=document.getElementsByClassName("imga")[1];
+let a2=document.getElementsByClassName("menoenter")[2];
+let b2=document.getElementsByClassName("imga")[2];
+let a3=document.getElementsByClassName("menoenter")[3];
+let b3=document.getElementsByClassName("imga")[3];
+let a4=document.getElementsByClassName("menoenter")[4];
+let b4=document.getElementsByClassName("imga")[4];
+let a5=document.getElementsByClassName("menoenter")[5];
+let b5=document.getElementsByClassName("imga")[5];
+let a6=document.getElementsByClassName("menoenter")[6];
+let b6=document.getElementsByClassName("imga")[6];
+let a7=document.getElementsByClassName("menoenter")[7];
+let b7=document.getElementsByClassName("imga")[7];
+a0.addEventListener("mouseover",function(){
+    b0.src="https://s6.uupload.ir/files/sobabi_rb2h.png"
+})
+
+a0.addEventListener("mouseout",function(){
+    b0.src="https://s6.uupload.ir/files/sob_mqm4.png"
+})
+
+
+
+
+a1.addEventListener("mouseover",function(){
+    b1.src="https://s6.uupload.ir/files/pishabi_mzvn.png"
+})
+
+a1.addEventListener("mouseout",function(){
+    b1.src="https://s6.uupload.ir/files/pish_l3bg.png"
+})
+
+
+a2.addEventListener("mouseover",function(){
+    b2.src="https://s6.uupload.ir/files/saladabi_5p5z.png"
+})
+
+a2.addEventListener("mouseout",function(){
+    b2.src="https://s6.uupload.ir/files/salad_asy.png"
+})
+
+a3.addEventListener("mouseover",function(){
+    b3.src="https://s6.uupload.ir/files/pitzaabi_yhe9.png"
+})
+
+a3.addEventListener("mouseout",function(){
+  b3.src="https://s6.uupload.ir/files/pitza_zosz.png"
+})
+
+a4.addEventListener("mouseover",function(){
+    b4.src="https://s6.uupload.ir/files/pastaabi_a8l5.png"
+})
+
+a4.addEventListener("mouseout",function(){
+    b4.src="https://s6.uupload.ir/files/pasta_tirj.png"
+})
+
+a5.addEventListener("mouseover",function(){
+    b5.src="https://s6.uupload.ir/files/kabababi_ygop.png"
+})
+
+a5.addEventListener("mouseout",function(){
+    b5.src="https://s6.uupload.ir/files/kabab_27ze.png"
+})
+a6.addEventListener("mouseover",function(){
+    b6.src="https://s6.uupload.ir/files/ghahveabi_56mn.png"
+})
+
+a6.addEventListener("mouseout",function(){
+    b6.src="https://s6.uupload.ir/files/ghahve_6n1t.png"
+})
+
+a7.addEventListener("mouseover",function(){
+    b7.src="https://s6.uupload.ir/files/chayabi_klzf.png"
+})
+
+a7.addEventListener("mouseout",function(){
+    b7.src="https://s6.uupload.ir/files/chay_kac4.png"
+})
+ </script>
+</body>
+</html>
